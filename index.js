@@ -18,7 +18,7 @@ app.use(express.json());
 // CORS Setup
 const allowedOrigins = [
   'http://localhost:5173', // Local development frontend
-  'https://swissmote-beta.vercel.app', // Deployed frontend
+  'https://swissmote-frontend.onrender.com/', // Deployed frontend
 ];
 
 app.use(cors({
