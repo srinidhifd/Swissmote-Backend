@@ -17,7 +17,8 @@ app.use(express.json());
 
 // CORS Setup
 const allowedOrigins = [
-  'http://localhost:5173', // Local development frontend
+  'http://localhost:5173',
+  'http://localhost:5500', // Local development frontend
   'https://swissmote-frontend.onrender.com', // Deployed frontend
 ];
 
