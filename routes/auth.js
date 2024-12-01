@@ -75,7 +75,7 @@ router.post(
     try {
       const user = await User.findOne({ email });
       if (!user) {
-        return res.status(400).json({ message: 'No Account Associated with this email' });
+        return res.status(400).json({ message: 'No account found for this email' });
       }
 
       // Compare password
