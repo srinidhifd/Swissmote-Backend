@@ -20,7 +20,7 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5500', // Local development frontend
   'https://swissmote-frontend.onrender.com',
-  'https://swissmote-frontend.vercel.app' 
+  'https://swissmote-dashboard.vercel.app/' 
 ];
 
 app.use(cors({
